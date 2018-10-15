@@ -1,0 +1,173 @@
+/* -----------------------------------------------------
+  Hyundai Style Sheet
+  By: Anil Kumar
+  Find me on -
+  Website: www.anilpandiya.tech
+  GitHub: https://github.com/anilpandiya
+-------------------------------------------------------- */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.half {
+    width:45%;
+    display:inline-block;
+  }
+  
+.half.left {
+    padding:0 0 20px 20px;
+    position: relative;
+}
+ 
+.half.right{
+    padding:0 0 20px 20px;
+    position: absolute;
+}  
+
+#main-img{
+    height: 448px;
+    width : 259px;
+}
+
+.button {
+    border: 5px solid black;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px 15px;
+    border-radius: 50%;
+    
+}
+
+.button:active,
+.button:focus{border: 5px solid rgb(112, 236, 112);}
+
+.button1 { background-color: blue; margin-left: 90px;}
+.button2 { background-color: grey;}
+.button3 { background-color: red;}
+.button4 { background-color: silver; }
+
+#color{
+    padding-left: 230px;
+}
+#terms{
+	line-height:1.8;
+	color:#43485c;
+    font-size:12px;
+    padding: 0 20px;
+}
+
+.sechalf{
+    
+    display: inline-block;
+}
+
+.sechalf.progressMain {
+    width: 60%;
+}
+ 
+.half.ratingmeter{
+    width: 30%;
+} 
+
+.progressMain{
+    padding-top: 20px;
+  }
+
+.link{
+    text-align: end;
+    padding-top: 20px;
+}  
+
+a{
+    text-decoration: none;
+}
+
+#other_cars{
+    padding-top: 20px;
+    width: 101%;
+}
+
+
+/* -----------------------------------------------------
+         Progress Bars
+-------------------------------------------------------- */
+
+.cssProgress {
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .cssProgress .progress2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  .cssProgress .cssProgress-bar {
+    display: block;
+    float: left;
+    width: 0%;
+    height: 100%;
+    background: #ee8b52;
+  }
+  .cssProgress .cssProgress-label {
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.7em;
+    text-align: center;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .progress2 {
+    background-color: #EEE;
+    border-radius: 9px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .progress2 .cssProgress-bar {
+    height: 18px;
+    border-radius: 9px;
+  }
+  .progress2 .cssProgress-label {
+    line-height: 18px;
+    
+  }
+  
+
+/* -----------------------------------------------------
+         Rating Meter
+-------------------------------------------------------- */
+
+.progress{
+    position: relative;
+    float:left;
+    text-align: center;
+    margin-left: 35px;
+    padding-bottom: 90px;
+
+  }
+  .barOverflow{ 
+    position: relative;
+    overflow: hidden; 
+    width: 220px; height: 110px; /* Half circle (overflow) */
+    margin-bottom: -14px; 
+  }
+  .bar{
+    position: absolute;
+    top: 0; left: 0;
+    width: 220px; height: 220px; /* full circle! */
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid #eee;     
+    border-bottom-color: rgb(0, 255, 76); 
+    border-right-color: rgb(0, 255, 76);
+  }
+
+  .end{
+      text-align: center;
+      padding-top: 40px;
+  }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Anil Pandiya">
+
+        <!--font-family-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+            rel="stylesheet">
+
+        <!-- title of site -->
+        <title>Hyundai</title>
+
+        <!--stylesheets-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        
+    </head>
+
+    <body>
+
+        <!-- main -->
+        <main>
+
+            <!-- Left section -->
+            <div class="half left">
+                <h1>Styles</h1>
+                <img src="./assets/img/silver.jpg" class="main-img" id="car">
+
+                <!-- Car Colors-->
+                <div class="colors">
+                    <button class="button button1" onclick="changeToBlue()"></button>
+                    <button class="button button2" onclick="changeToGrey()"></button>
+                    <button class="button button3" onclick="changeToRed()"></button>
+                    <button class="button button4" onclick="changeToSilver()"></button>
+
+                    <p id="color">Silver</p>
+                    <p id="terms">Vehicle images are guides only and may not reflect the model's excat specificaitons /-features- exact specifications/features
+                        should be confirmed with the seller.</p>
+                </div><!-- @end Car colors-->
+
+            </div><!-- @end Left Section-->
+
+            <!-- Right Section-->
+            <div class="half right">
+                <h1>Ratings</h1>
+
+                <!-- Progress Bar-->
+                <div id="pb" class="sechalf progressMain">
+
+                    <div class="cssProgress">
+                        <span>Critic's Ratings</span>
+                        <div class="progress2">
+                            <div class="cssProgress-bar" data-percent="75" style="width: 75%;">
+                                <span class="cssProgress-label">75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cssProgress">
+                        <span>Performance</span>
+                        <div class="progress2">
+                            <div class="cssProgress-bar" data-percent="83" style="width: 83%;">
+                                <span class="cssProgress-label">83%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cssProgress">
+                        <span>Interior</span>
+                        <div class="progress2">
+                            <div class="cssProgress-bar" data-percent="50" style="width: 50%;">
+                                <span class="cssProgress-label">50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cssProgress">
+                        <span>Saftey</span>
+                        <div class="progress2">
+                            <div class="cssProgress-bar" data-percent="65" style="width: 65%;">
+                                <span class="cssProgress-label">65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cssProgress">
+                        <span>Reliablity</span>
+                        <div class="progress2">
+                            <div class="cssProgress-bar" data-percent="97" style="width: 97%;">
+                                <span class="cssProgress-label">97%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="link">
+                        <a href="">View All Ratings>></a>
+                    </div>
+
+                </div><!--@end Progress Bar-->
+
+                <!-- Rating Meter-->
+                <div class="sechalf ratingmeter">
+
+                    <div class="progress">
+                        <div class="barOverflow">
+                            <div class="bar"></div>
+                        </div>
+                        <span>76.5</span>%
+                        <p>Overall Rating</p>
+                    </div>
+
+                </div><!-- @end Rating Meter-->
+
+                <img src="assets/img/other_cars.png" id="other_cars">
+
+            </div><!--@end Right Section-->
+
+        </main><!-- @end main-->
+
+        <!-- Footer -->
+        <footer>
+            <div class="end">By -
+                <a href="https://www.anilpandiya.tech/" target="_blank">Anil Pandiya</a>
+            </div>
+        </footer><!-- @end footer -->
+
+        <!-- Include scripts -->
+        <script type="text/javascript" src="assets/js/jquery/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="assets/js/Carcolor.js"></script>
+        <script type="text/javascript" src="assets/js/Progressbar.js"></script>
+        <script type="text/javascript" src="assets/js/Ratingmeter.js"></script>
+
+    </body>
+
+</html>
